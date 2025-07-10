@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Desarrollo Web</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💼</text></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Mi Portafolio</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#acerca" class="nav-link">Acerca de mí</a></li>
+                    <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li class="nav-item"><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li class="nav-item"><a href="forms.html" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Bienvenido a Mi Portafolio</h1>
+            <p class="hero-subtitle">Desarrollador Web Full Stack especializado en crear experiencias digitales excepcionales</p>
+            <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="acerca" class="about">
+        <div class="container">
+            <h2 class="section-title">Acerca de Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy un desarrollador web apasionado con más de 5 años de experiencia en el desarrollo de aplicaciones web modernas y responsivas. Mi enfoque se centra en crear soluciones innovadoras que combinen funcionalidad excepcional con diseño atractivo.</p>
+                    <p>Especializado en tecnologías como React, Node.js, Python y bases de datos modernas. Me mantengo constantemente actualizado con las últimas tendencias y mejores prácticas en desarrollo web.</p>
+                    <div class="skills">
+                        <h3>Habilidades Técnicas</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Desarrollador trabajando" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=600" alt="E-commerce Platform" />
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>Plataforma de comercio electrónico completa con gestión de productos, carrito de compras y procesamiento de pagos.</p>
+                        <div class="project-details">
+                            <p>Desarrollada con React y Node.js, esta aplicación incluye autenticación de usuarios, panel de administración, integración con APIs de pago y sistema de inventario en tiempo real. La arquitectura está optimizada para alta escalabilidad y rendimiento.</p>
+                            <div class="tech-stack">
+                                <span class="tech">React</span>
+                                <span class="tech">Node.js</span>
+                                <span class="tech">MongoDB</span>
+                                <span class="tech">Stripe</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline read-more-btn">Leer más</button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Task Management App" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Aplicación de gestión de tareas con colaboración en tiempo real, ideal para equipos de trabajo remotos.</p>
+                        <div class="project-details">
+                            <p>Sistema completo de gestión de proyectos con funcionalidades como asignación de tareas, seguimiento de progreso, chat en tiempo real y notificaciones push. Incluye dashboard analítico y reportes personalizables.</p>
+                            <div class="tech-stack">
+                                <span class="tech">Vue.js</span>
+                                <span class="tech">Firebase</span>
+                                <span class="tech">WebSocket</span>
+                                <span class="tech">PWA</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline read-more-btn">Leer más</button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?auto=compress&cs=tinysrgb&w=600" alt="AI Analytics Dashboard" />
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Analytics Dashboard</h3>
+                        <p>Dashboard analítico con inteligencia artificial para visualización de datos complejos y predicciones automáticas.</p>
+                        <div class="project-details">
+                            <p>Plataforma avanzada que integra machine learning para análisis predictivo, visualizaciones interactivas con D3.js y procesamiento de big data. Incluye alertas inteligentes y reportes automatizados.</p>
+                            <div class="tech-stack">
+                                <span class="tech">Python</span>
+                                <span class="tech">TensorFlow</span>
+                                <span class="tech">D3.js</span>
+                                <span class="tech">PostgreSQL</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline read-more-btn">Leer más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Desarrollo Web" />
+                    </div>
+                    <div class="service-content">
+                        <h3>Desarrollo Web</h3>
+                        <p>Creación de sitios web modernos y aplicaciones web responsivas utilizando las últimas tecnologías y mejores prácticas.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Apps Móviles" />
+                    </div>
+                    <div class="service-content">
+                        <h3>Aplicaciones Móviles</h3>
+                        <p>Desarrollo de aplicaciones móviles nativas e híbridas para iOS y Android con excelente rendimiento y UX.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Consultoría" />
+                    </div>
+                    <div class="service-content">
+                        <h3>Consultoría Técnica</h3>
+                        <p>Asesoramiento especializado en arquitectura de software, optimización de rendimiento y estrategias tecnológicas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mi Portafolio</h3>
+                    <p>Desarrollador web especializado en crear experiencias digitales excepcionales.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#acerca">Acerca de mí</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>Email: contacto@miportafolio.com</p>
+                    <p>Teléfono: +57 300 123 4567</p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/tu-usuario" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:contacto@miportafolio.com"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
